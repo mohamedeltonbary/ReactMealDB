@@ -1,0 +1,11 @@
+.pacifico {
+  font-family: "Pacifico", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: xx-large;
+  background: linear-gradient(to right, #e58353,#e06c0c,#e1129555);
+  /* background: linear-gradient(to right, #8BAE66, #628141, #EBD5AB); */
+  /* background: linear-gradient(to right, #703B3B, #A18D6D, #E1D0B3); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

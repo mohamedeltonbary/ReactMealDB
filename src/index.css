@@ -1,0 +1,7 @@
+@import "tailwindcss";
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.import{
+  z-index: 100 !important;
+}
