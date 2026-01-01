@@ -1,5 +1,5 @@
 import React from "react";
-import Style from "./RecipeDetails.Module.css";
+import Style from "./RecipeDetails.module.css";
 import { Link, useParams } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
@@ -9,7 +9,7 @@ import { FaYoutube } from "react-icons/fa";
 
 const RecipeDetails = () => {
   const { id } = useParams();
-  const { data, isError, isLoading, error, isSuccess } = useQuery({
+  const { data, isError, isLoading, error} = useQuery({
     queryKey: ["recipe", id],
     queryFn: async () => {
       // const response = await fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${id}`);
